@@ -37,6 +37,10 @@
   }
 }
 
+@mixin frost($px: 100px) {
+  filter: blur($px)
+}
+
 //Placeholders
 //Usage:
 //@include placeholder;
