@@ -37,7 +37,7 @@
   }
 }
 
-@mixin frost($px: 100px) {
+@mixin frost($px) {
   filter: blur($px)
 }
 
