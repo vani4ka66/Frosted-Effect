@@ -37,8 +37,8 @@
   }
 }
 
-@mixin frost($px) {
-  backdrop-filter: blur($px)
+@mixin frost($intensity) {
+  backdrop-filter: blur($intensity)
 }
 
 //Placeholders
